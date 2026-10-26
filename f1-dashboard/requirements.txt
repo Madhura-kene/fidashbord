@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+xgboost
+shap
+plotly
+streamlit
+joblib
+# optional, for real modern data:
+# fastf1

@@ -1,0 +1,39 @@
+{
+  "test_season": 2025,
+  "train_rows": 4840,
+  "test_rows": 440,
+  "winner": {
+    "model_top1_acc": 0.45454545454545453,
+    "baseline_pole_acc": 0.4090909090909091,
+    "log_loss": 0.14496055245399475
+  },
+  "podium": {
+    "model_hit_rate": 0.5606060606060606,
+    "baseline_grid_hit_rate": 0.606060606060606
+  },
+  "finish_regression": {
+    "model_mae": 2.9047746658325195,
+    "baseline_grid_mae": 3.0,
+    "model_rmse": 3.9314870790154988,
+    "baseline_grid_rmse": 4.236207566379927,
+    "model_spearman": 0.7248803827751195,
+    "baseline_grid_spearman": 0.7301435406698565
+  },
+  "dnf": {
+    "model_auc": 0.5967110982323964,
+    "model_brier": 0.07076132297515869,
+    "baseline_brier": 0.07132624137695513
+  },
+  "importance": {
+    "grid": 0.3779219388961792,
+    "team_pts5": 0.17356890439987183,
+    "form_pts5": 0.15250082314014435,
+    "champ_pos_before": 0.10910233110189438,
+    "form_pos5": 0.04900583252310753,
+    "dnf_rate10": 0.04303666204214096,
+    "circuit_avg_pos": 0.03728560730814934,
+    "grid_vs_teammate": 0.03417918458580971,
+    "season_pts_before": 0.02339869923889637
+  },
+  "data_source": "DEMO data (synthetic) - add Kaggle CSVs to data/raw/ for real results"
+}
